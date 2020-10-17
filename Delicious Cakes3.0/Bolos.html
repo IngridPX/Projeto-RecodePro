@@ -1,0 +1,207 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Produtos - Delicious Cakes</title>
+<link rel="stylesheet" href="estilo.css">
+<script src='script.js'></script>
+    </head>
+    <body>
+        <!-- Início do menu-->
+        <table class="menu">
+            <tr>
+                <td><a href='Historia.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">A Delicious Cakes</a></td>
+                <td><a href='Bolos.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">Bolos</a></td>
+                <td height="100%"><a href='Home.html'><img src="imagens/Logo.png" alt="Delicious Cakes" width="50%" onmouseover="this.className='trOver'" onmouseout="this.className='trOut'"></a></td>
+                <td><a href='Lojas.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">Nossas Lojas</a></td>
+                <td><a href='Contato.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">Contatos</a></td>
+            </tr>
+        </table>
+        <!-- Fim do menu-->
+        <h2>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Bolos &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</h2>
+        <table width='100%'>
+            <tr>
+                <td rowspan="5" width="20%" valign="top">
+                    <h3 style="font-family: Times New Roman; font-size: 20; position:fixed;">Categorias</h3><br/><br/>
+                    <ul id="fixo">
+                        <li onclick="exibir_todos()">Todos (17)</li>
+                        <li onclick="exibir_categoria('Bolos Caseiros')">Bolos Caseiros (3)</li>
+                        <li onclick="exibir_categoria('Bolos com Calda')">Bolos com Calda (2)</li>
+                        <li onclick="exibir_categoria('Bolos de Festa')">Bolos de Festa (3)</li>
+                        <li onclick="exibir_categoria('Bolos de Pote')">Bolos de Pote (5)</li>
+                        <li onclick="exibir_categoria('Bolos Funcional')">Bolos Funcional (1)</li>
+                        <li onclick="exibir_categoria('Cheesecakes sem Forno')">Cheesecakes sem Forno (1)</li>
+                        <li onclick="exibir_categoria('Rocambole')">Rocambole (2)</li>
+                    </ul>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos Caseiros' style="display:block;">
+                    <img src="https://apucarana.cidadecancao.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bolo_aipim_cremoso_kg_86042.jpg_1.jpg" width="170px" title="Bolo de Aipim Cremoso" alt="Bolo de Aipim Cremoso" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo de Aipim Cremoso
+                    <hr>
+                    R$ 20,00
+                </div>
+                </td>
+                <td id="produto">
+                <div class="box_produto" id='Bolos Caseiros' style="display:block;">
+                    <img src="imagens/bolo_queijo.png" width="171px" title="Bolo de Queijo Cremoso" alt="Bolo de Queijo Cremoso" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo de Queijo Cremoso
+                    <hr>
+                    R$ 40,00
+                </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos Caseiros' style="display:block;">
+                    <img src="imagens/bolo_formiga.png" width="170px" title="Bolo Formigueiro" alt="Bolo Formigueiro" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo Formigueiro
+                    <hr>
+                    R$ 20,00
+                </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos com Calda' style="display:block;">
+                    <img src="imagens/bolo_cenoura.png" width="175px" title="Bolo de Cenoura com Chocolate" alt="Bolo de Cenoura com Chocolate" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Cenoura com Chocolate
+                    <hr>
+                    <font face="Times New Roman" size="2"><strike> R$ 40,00 </strike></font><br/>
+                    R$ 34,00
+                </div>
+                </td>
+            </tr>
+                <tr>
+                    <td id="produto">
+                        <div class="box_produto" id='Bolos com Calda' style="display:block;">
+                        <br/><img src="imagens/bolo_red.png" width="140px" title="Bolo Red Velvet com Leite Ninho" alt="Bolo Red Velvet com Leite Ninho" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                        Red Velvet com Leite Ninho
+                        <hr>
+                        <font face="Times New Roman" size="2"><strike> R$ 50,00 </strike></font><br/>
+                        R$ 42,50
+                        </div>
+                    </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Festa' style="display:block;">
+                    <img src="imagens/Bolo_baunilha.png" width="135px" title="Bolo de Baunilha com Ganache" alt="Bolo de Baunilha com Ganache" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Baunilha com Ganache
+                    <hr>
+                    <font face="Times New Roman" size="2"><strike> R$ 120,00 </strike></font><br/>
+                    R$ 102,00
+                    </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Festa' style="display:block;">
+                    <img src="imagens/bolo1.jpg" width="150px" title="Bolo de Chocolate com Framboesa" alt="Bolo de Chocolate com Framboesa" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Chocolate com Framboesa
+                    <hr>
+                    <font face="Times New Roman" size="2"><strike> R$ 150,00 </strike></font><br/>
+                    R$ 127,50
+                    </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Festa' style="display:block;">
+                    <img src="imagens/bolo.jpg" width="110px" title="Bolo de Pão de Ló com Nozes" alt="Bolo de Pão de Ló com Nozes" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Pão de Ló com Nozes
+                    <hr>
+                    <font face="Times New Roman" size="2"><strike> R$ 150,00 </strike></font><br/>
+                    R$ 127,50
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Pote' style="display:block;">
+                    <img src="https://www.padariapampulha.com.br/wp-content/uploads/2019/09/Bolo-pote-morango.png" width="107px" title="Bolo de Ninho com Morango" alt="Bolo de Ninho com Morango" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo de Ninho com Morango
+                    <hr>
+                    R$ 5,00
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Pote' style="display:block;">
+                    <img src="imagens/floresta_negra.png" width="130px" title="Bolo de Floresta Negra" alt="Bolo de Floresta Negra" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo de Floresta Negra
+                    <hr>
+                    R$ 5,00
+                </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Pote' style="display:block;">
+                    <img src="https://i2.wp.com/crazykiwi.com.br/wp-content/uploads/2019/04/Foto-bolos-de-pote-09-04pa%C3%A7oca.jpg?resize=170%2C162" width="114px" title="Bolo de Churros" alt="Bolo de Churros" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo de Churros
+                    <hr>
+                    R$ 5,00
+                    </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Pote' style="display:block;">
+                    <br/><img src="imagens/limao.png" width="99px" title="Bolo de Mousse de Limão" alt="Bolo de Mousse de Limão" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo de Mousse de Limão
+                    <hr>
+                    R$ 5,00
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos de Pote' style="display:block;">
+                    <img src="imagens/maracuja.png" width="107px" title="Bolo de Mousse de Maracuja" alt="Bolo de Mousse de Maracuja" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo de Mousse de Maracuja
+                    <hr>
+                    R$ 5,00
+                    </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Bolos Funcional' style="display:block;">
+                    <img src="imagens/bolofuncional.png" width="177px" title="Bolo Funcional de Abacaxi" alt="Bolo Funcional de Abacaxi" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Bolo Funcional de Abacaxi
+                    <hr>
+                    R$ 30,00
+                    </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Cheesecakes sem Forno' style="display:block;">
+                    <img src="imagens/Cheesecake.png" width="177px" title="Cheesecake de Paçoca" alt="Cheesecake de Paçoca" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Cheesecake de Paçoca
+                    <hr>
+                    R$ 40,00
+                    </div>
+                </td>
+                <td id="produto">
+                    <div class="box_produto" id='Rocambole' style="display:block;">
+                    <br/><img src="https://t2.rg.ltmcdn.com/pt/images/2/0/7/img_rocambole_de_chocolate_com_coco_3702_600.jpg" width="134px" title="Rocambole de Prestigio" alt="Rocambole de Prestigio" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Rocambole de Prestigio
+                    <hr>
+                    R$ 15,00
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td id="produto">
+                    <div class="box_produto" id='Rocambole' style="display:block;">
+                    <img src="http://panattos.com.br/uploads/produtos/2017/02/rocambole-assado-congelado.jpg" width="120px" title="Rocambole de Doce de Leite" alt="Rocambole de Doce de Leite" onmouseover="destaque(this)" onmouseout="destaque(this)"><br/>
+                    Rocambole de Doce de Leite
+                    <hr>
+                    R$ 15,00
+                </div>
+                </td>
+                <td id="produto">
+                    &numsp;
+                </td>
+                <td id="produto">
+                    &numsp;
+                </td>
+                <td id="produto">
+                    &numsp;
+                </td>
+            </tr>
+        </table>
+<br/>
+        <hr>
+        <!--Início do rodapé-->
+        <footer>
+            <h4 id="rodape">
+            <strong><em>Formas de Pagamento:</em></strong><br/><br/>
+            <img src="imagens/forma_pagamento.jpg" title="Formas de Pagamento" alt='Formas de Pagamento' width="25%"><br/><br/>
+            <font size="2px" color="black">&copy;Todos os direitos reservados.</font>
+        </h4>
+        </footer>
+        <!--Fim do rodapé -->
+    </body>
+</html>
