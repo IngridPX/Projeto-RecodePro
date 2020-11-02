@@ -3,57 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <title>Nossa História</title>
-<link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="estilo.css">
     </head>
-    <body>
+    <body class="container">
         <!-- Início do menu-->
-        <table class="menu">
-            <tr>
-                <td><a href='Historia.html'>A Delicious Cakes</a></td>
-                <td><a href='Bolos.html'>Bolos</a></td>
-                <td height="100%"><a href='Home.html'><img src="imagens/Logo.png" alt="Delicious Cakes" width="50%"></a></td>
-                <td><a href='Lojas.html'>Nossas Lojas</a></td>
-                <td><a href='Contato.html'>Contatos</a></td>
-            </tr>
-        </table>
+        <ul class="menu">
+            <li id="posicao"><a href='Historia.html'>A Delicious Cakes</a></li>
+            <li id="posicao"><a href='Bolos.html'>Bolos</a></li>
+            <li id="logo"><a href='Home.html'><img src="imagens/Logo.png" alt="Delicious Cakes"></a></li>
+            <li id="posicao"><a href='Lojas.html'>Nossas Lojas</a></li>
+            <li id="posicao"><a href='Contato.html'>Contatos</a></li>
+        </ul>
         <!-- Fim do menu-->
-        <h2>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Nossa História &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</h2>
-        <table border="0" width="100%" cellpadding="10">
-            <tr>
-                <td width="50%">
-                    <h3 style="color: rebeccapurple;">&numsp; &numsp; &numsp; &numsp; &numsp; "O melhor do seu dia"</h3>
-                    <p> &numsp; &numsp; A Delicious Cakes surgiu, após um período de crise, na qual uma família que amava fazer bolos para o café da tarde, enxergou um meio de fazer o que ama, e ainda ter uma renda para se sustentar. 
-                        Após muito foco e dedicação, a pequena empresa que contava com um imóvel de 48m<font size="2px"><sup>2</sup></font> em São Paulo, hoje conta com franquias em 3 cidades do Brasil.
-                    </p>
-                    <hr>
-                    <h4>MISSÃO</h4>
-                    <p> &numsp; &numsp; Garantir a satisfação dos nossos clientes com produtos de qualidade, para que eles possam compartilhar os seus melhores momentos com seus familiares e amigos.                    </p>
-                    <h4>VISÃO</h4>
-                    <p> &numsp; &numsp; Ser referência mundial nos mais variados tipos de bolos em um período de 10 anos, destacando-se pela qualidade, comprometimento e originalidade. 
-                    </p>
-                    <h4>VALORES</h4>
-                    <p>
-                        <ol>
-                            <li>Família e Amigos</li>
-                            <li>Dedicação</li>
-                            <li>Comprometimento</li>
-                            <li>Humildade</li>
-                        </ol>
-                    </p>
-                </td>
-                <td width="50%">
-                    <img src="imagens/Bolo com café.png" width="100%" title="Bolo com café" alt="Bolo com café"><br/><br/>
-                </td>
-            </tr>
-        </table>
-        <br/>
+        <h2 id="titulo">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Nossa História &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</h2>
+        <div class="imagem">
+                <img src="imagens/Bolo com café.png" width="100%" title="Bolo com café" alt="Bolo com café">
+        </div>
+        <h3 style="color: rebeccapurple;">&numsp; &numsp; &numsp; &numsp; &numsp; "O melhor do seu dia"</h3>
+        <p> &numsp; &numsp; A Delicious Cakes surgiu, após um período de crise, na qual uma família que amava fazer bolos para o café da tarde, enxergou um meio de fazer o que ama, e ainda ter uma renda para se sustentar. 
+            Após muito foco e dedicação, a pequena empresa que contava com um imóvel de 48m<font size="2px"><sup>2</sup></font> em São Paulo, hoje conta com franquias em 3 cidades do Brasil.
+        </p>
         <hr>
+        <h4>MISSÃO</h4>
+        <p> &numsp; &numsp; Garantir a satisfação dos nossos clientes com produtos de qualidade, para que eles possam compartilhar os seus melhores momentos com seus familiares e amigos.</p>
+        <h4>VISÃO</h4>
+        <p> &numsp; &numsp; Ser referência mundial nos mais variados tipos de bolos em um período de 10 anos, destacando-se pela qualidade, comprometimento e originalidade.</p>
+        <h4>VALORES</h4>
+        <p>
+            <ol>
+                <li>Família e Amigos</li>
+                <li>Dedicação</li>
+                <li>Comprometimento</li>
+                <li>Humildade</li>
+            </ol>
+        </p>
         <!--Início do rodapé-->
         <footer>
-            <h4 id="rodape">
-            <strong><em>Formas de Pagamento:</em></strong><br/><br/>
-            <img src="imagens/forma_pagamento.jpg" title="Formas de Pagamento" alt='Formas de Pagamento' width="25%"><br/><br/>
-            <font size="2px" color="black">&copy;Todos os direitos reservados.</font>
+            <hr>
+            <h4><em>Formas de Pagamento:</em><br/>
+            <img src="imagens/forma_pagamento.jpg" title="Formas de Pagamento" alt='Formas de Pagamento'>
+            <p><strong>&copy;Todos os direitos reservados.</strong></p>
         </h4>
         </footer>
         <!--Fim do rodapé -->
