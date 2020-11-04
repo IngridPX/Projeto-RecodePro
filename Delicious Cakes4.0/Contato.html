@@ -1,0 +1,66 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Delicious Cakes</title>
+<link rel="stylesheet" href="estilo.css">
+<script src='script.js'></script>
+    </head>
+    <body class="container">
+        <!-- Início do menu-->
+        <ul class="menu">
+            <li id="posicao"><a href='Historia.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">A Delicious Cakes</a></li>
+            <li id="posicao"><a href='Bolos.php' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">Bolos</a></li>
+            <li id="logo"><a href='Home.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'"><img src="imagens/Logo.png" alt="Delicious Cakes"></a></li>
+            <li id="posicao"><a href='Lojas.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">Nossas Lojas</a></li>
+            <li id="posicao"><a href='Contato.html' onmouseover="this.className='trOver'" onmouseout="this.className='trOut'">Contatos</a></li>
+        </ul>
+        <!-- Fim do menu-->
+        <h2 id="titulo">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Contatos &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</h2>
+        <div class="titulo-contato">
+            <strong>Central de Vendas</strong>
+            <div class="contato">
+                <img src="imagens/telefone.png" title="Telefone" alt="Telefone">  (11)5437-8859<br/><br/>
+                <img src="imagens/whatsapp.png" title="whatsapp" alt="whatsapp">  (11)96578-8759<br/><br/>
+                <img src="imagens/o-email.png" title="Email" alt="Email">  
+                <a href="mailto:atendimento@deliciouscakes.com">atendimento@deliciouscakes.com</a>
+            </div>
+        </div>
+        <div class="titulo-msg">
+            <strong>Deixe seu Recado</strong>
+            <div class="msg">
+                <p>Deixe aqui sua dúvida, elogio, sugestão ou crítica. Sua opinião é muito importante para nós.</p>
+                <div style="text-align:left">
+                    <form action="formulario.php" method="POST">
+                        <label for='lbCategoria'><strong>Categoria: </strong></label><br/>
+                        <select id="categoria" name="categoria">
+                            <option value="Crítica"> Crítica </option>
+                            <option value="Dúvida"> Dúvida </option>
+                            <option value="Elogio"> Elogio </option>
+                            <option value="Sugestão"> Sugestão </option>
+                        </select><br/><br/>
+                        <label for='lbNome'><strong>Nome: </strong></label>
+                        <label for='lbSobrenome' class="espacamento"><strong>Sobrenome: </strong></label></br>
+                        <input type="text" id='nome' name='Nome' size='21'>
+                        <input type="text" id='sobrenome' name='Sobrenome' size='22'><br/><br/>
+                        <label for='lbTelefone'><strong>Telefone: </strong></label><br/>
+                        <input type="text" id='telefone' name='Telefone' size='49'><br/><br/>
+                        <label for='lbEmail'><strong>E-mail: </strong></label><br/>
+                        <input type="email" id='email' name='Email' size='49'><br/><br/>
+                        <label for='lbDescricao'><strong>Descrição: </strong></label><br/>
+                        <textarea id="descricao" name="descricao" rows="5" cols="51"></textarea><br/><br/>
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Início do rodapé-->
+        <footer>
+            <hr>
+            <h4><em>Formas de Pagamento:</em><br/>
+                <img src="imagens/forma_pagamento.jpg" title="Formas de Pagamento" alt='Formas de Pagamento'>
+                <p><strong>&copy;Todos os direitos reservados.</strong></p>
+            </h4>
+        </footer>
+        <!--Fim do rodapé -->
+    </body>
+</html>
